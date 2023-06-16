@@ -1,34 +1,56 @@
-<h1 align="center">Ignite Timer</h1>
-
-<p align="center">
-  <a href="LICENSE"><img  src="https://img.shields.io/static/v1?label=License&message=MIT&color=8257e5&labelColor=202024" alt="License"></a>
-</p>
-
+<div align="center">
+  <img src="./public/logo-ignite.svg"/>
+</div>
 
 ## 💻 Projeto
+Ignite Timer ⏳, projeto desenvolvido na trilha de React no ignite da Rocketseat. Trata-se de um timer onde é possível adicionar as suas tarefas do dia a dia e cronometrá-las com tempo mínimo de 5 minutos e tempo máximo de 60 minutos, podendo interrompê-las e ver o histórico de suas tarefas.
 
-02-ignite-timer
+![Projeto finance](/public/ignitetimer1.png)
+![Projeto finance](/public/ignitetimer2.png)
+![Projeto finance](/public/ignitetimer3.png)
 
-## 📝 Licença
+## Clonando o projeto
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Clone o projeto usando o comando abaixo
 
----
+```bash
+https://github.com/felipsbreno/ignite-timer.git
+```
 
-<p align="center">
-  Feito com 💜 by Breno Felipe
-</p>
+## Começando...
 
+Instale as dependências com:
 
-<!--START_SECTION:footer-->
+```bash
+npm install
+# ou
+yarn 
+```
 
-<br />
-<br />
+## Iniciando o projeto
 
-<p align="center">
-  <a href="https://discord.gg/rocketseat" target="_blank">
-    <img align="center" src="https://storage.googleapis.com/golden-wind/comunidade/rodape.svg" alt="banner"/>
-  </a>
-</p>
+Execute o projeto com:
 
-<!--END_SECTION:footer-->
+```bash
+npm run dev
+# ou
+yarn dev
+```
+
+Abra [http://localhost:3000](http://localhost:3000) em seu browser para ver o resultado.
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- React Js
+
+### Features
+
+- Phospor-icons
+- Date-fns
+- React-hook-form
+- React-router-dom
+- Styled-components
+- Zod
+- Immer
